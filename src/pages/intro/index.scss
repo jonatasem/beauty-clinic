@@ -1,0 +1,96 @@
+.intro-page {
+    padding: 1.5rem;
+    background-color: transparent;
+
+    .intro-head {
+        display: flex;
+        justify-content: space-around;
+        margin: 2rem 0;
+
+        .intro-logo {
+            width: 40%;
+            text-align: center;
+
+            img {
+                width: 100%;
+                max-width: 300px;
+                border-radius: 1rem;
+            }
+        }
+    }
+
+    .layout-head-intro {
+        width: 75%;
+
+        .social-media {
+            display: flex;
+            flex-wrap: wrap;
+
+            .layout-title {
+                width: 50%;
+
+                h1 {
+                    font-size: 50px;
+                    margin-bottom: 4rem;
+                }
+
+                button {
+                    padding: 0.8rem 2rem;
+                    border: transparent;
+                    border-radius: 1.5rem;
+                    background-color: white;
+                    box-shadow: 1px 1px 5px #c0c0c0;
+                    font-weight: 600;
+                }
+            }
+
+            .layout-photos {
+                width: 50%;
+
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 1rem;
+
+                    li {
+                        width: 50%;
+                        list-style-type: none;
+                        text-align: center;
+
+                        img {
+                            width: 100%;
+                            max-width: 150px;
+                            border-radius: 0.2rem;
+                            border: 1px solid white;
+                            box-shadow: 1px 1px 5px #c0c0c094;
+                        }
+                        
+                        &:first-child {
+                            width: 100%;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .redes-sociais {
+            display: flex;
+            justify-content: center;
+
+            ul {
+                display: flex;
+                justify-content: center;
+                margin: 1.5rem 0;
+                width: 100%;
+
+                li {
+                    width: 30%;
+                    list-style-type: none;
+                    text-align: center;
+                    color: white;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.container-app {
+    background-color: transparent;
+
+    .layout-app {
+        background-color: var(--purple-color);
+        height: 300px;
+        width: 100%;
+        position: fixed;
+        top: 355px;
+        z-index: -1;
+    }
+}

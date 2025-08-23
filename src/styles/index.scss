@@ -1,0 +1,25 @@
+
+/*global colors*/
+:root {
+  --blue-color: #11104A;
+  --purple-color: #716FCD;
+  --orange-color: #FD876E;
+  --pink-color: #FFF4F1;
+}
+
+/*reset default*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: var(--pink-color);
+  /* google fonts  - Sora */
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
