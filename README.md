@@ -4,9 +4,7 @@ Uma plataforma para exibir produtos e serviços de uma esteticista. A aplicaçã
 
 ## 📸 Demonstração
 
-<p align="center">
-  <img src="./public/readme/empresa.webp" alt="Estética" width="600">
-</p>
+em breve...
 
 **[🔗 Acesse a demonstração online aqui!](https://beauty-clinic-flame.vercel.app/)**
 
