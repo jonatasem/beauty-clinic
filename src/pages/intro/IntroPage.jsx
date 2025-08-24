@@ -31,7 +31,7 @@ export default function IntroPage(){
                         <ul>
                             <li>+55 18 0000 00000</li>
                             <li>empresabeauty@gmail.com</li>
-                            <li>rua nove de novembro, 96</li>
+                            <li>rua nove de novemro</li>
                         </ul>
                     </div>
                 </div>

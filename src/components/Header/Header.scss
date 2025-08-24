@@ -10,7 +10,6 @@
         align-items: center;   
         
         &.header-head {
-
             h1 {
                 color: var(--purple-color);
             }
@@ -32,31 +31,6 @@
         }
 
         &.header-main {
-
-            div {
-                display: flex;
-                align-items: center;
-                width: 220px;
-                margin-right: 2rem;
-                position: relative;
-                
-                input {
-                    width: 100%;
-                    min-width: 220px;
-                    padding: 0.5rem 1rem;
-                    border-radius: 1.5rem;
-                    border: 1px solid #c0c0c081;
-                    margin-right: 1.5rem;
-                    outline: 0;
-                }
-                .icon {
-                    position: absolute;
-                    right: 10px;
-                    color: #929191;
-                }
-
-            }
-
             button {
                 padding: 0.8rem 2rem;
                 background-color: var(--orange-color);
@@ -64,6 +38,31 @@
                 border: transparent;
                 color: white;
                 font-weight: 800;
+            }
+            .mobile {
+                display: none;
+                margin-left: 1.5rem;
+                font-size: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width:999px) {
+    .container-header {
+        padding: 1.5rem 2rem;
+
+        article {
+            &.header-head {
+                .nav-bar {
+                    display: none;
+                }
+            }
+            &.header-main {
+                .mobile {
+                    display: block;
+                }
             }
         }
     }

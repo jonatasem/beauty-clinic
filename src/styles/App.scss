@@ -3,9 +3,9 @@
 
     .layout-app {
         background-color: var(--purple-color);
-        height: 300px;
+        height: 280px;
         width: 100%;
-        position: fixed;
+        position: absolute;
         top: 355px;
         z-index: -1;
     }
